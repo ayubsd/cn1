@@ -1,0 +1,18 @@
+step 1: take a switch(pt-switch) or router
+step 2: open switch
+3: open cofig wait for boot and change hostname to sh
+4: go to CLI
+5: banner motd $
+write a msg end with $
+6: line con 0
+7:password 123
+8:login
+9:exit
+10:enable secret 234
+11:exit 
+12: exit
+----------------your msg appear and enter password 123----------
+13:en
+password:234
+14:sh run
+
